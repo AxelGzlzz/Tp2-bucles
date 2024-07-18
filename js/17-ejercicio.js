@@ -25,7 +25,9 @@ for (let i = 0; i < texto.length; i++) {
 
 
 if (posicion !== -1) {
+  console.log("La vocal '" + texto[posicion] + "' está en la posición " + (posicion + 1));
   alert("La vocal '" + texto[posicion] + "' está en la posición " + (posicion + 1));
 } else {
+  console.log("No se encontraron vocales en el texto.");
   alert("No se encontraron vocales en el texto.");
 }
